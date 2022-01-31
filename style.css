@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    background: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 400px;
+    margin: 110px auto;
+}
+
+form{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form .input-container {
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+
+form .input-container input, input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    padding: 0 45px 0 25px;
+    font-size: 1rem;
+    
+}
+
+form .input-container input::placeholder {
+    color: gray;
+}
+
+h3 {
+    text-align: center;
+}
+
+.input-container svg {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 12px);
+    color: rgb(182, 180, 180);
+}
+
+.options-container .checkbox-container,.options-container a{
+    display: inline-block;
+    width: 50%;
+    color: rgb(182, 180, 180);
+}
+
+.options-container a {
+    text-align: right;
+    color: red;
+    text-decoration: none;
+}
+
+.options-container {
+    padding: 0 20px;
+    margin: 20px auto;
+}
+
+.input-container input[type="submit"] {
+    background: red;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+form p{
+    text-align: center;
+    color: rgb(182, 180, 180);
+}
+
+form .social-container {
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+form .social-container .ico-container {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+form .social-container .ico-container:nth-child(2) {
+   background: brown;
+}
+
+form .social-container .ico-container:nth-child(3) {
+    background: rgb(69, 138, 202);
+ }
+
+form .social-container .ico-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: calc(50% - 12px);
+    color: white; 
+}
+
+.footer-container p {
+    text-align: center;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: red;
+}
